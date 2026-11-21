@@ -2,7 +2,7 @@ import { defineConfig } from "vitest/config";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig(({ command, isPreview }) => ({
-  // Served from https://lvuCodes.github.io/hex-mirror/ on GitHub Pages, so the
+  // Served from https://lelCodes.github.io/hex-mirror/ on GitHub Pages, so the
   // production build needs the repo-name base path. `vite preview` serves that
   // build (and the smoke suite runs against it), so it needs the same base; only
   // the dev server stays at root.

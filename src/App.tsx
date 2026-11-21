@@ -1,4 +1,4 @@
-// Hex Mirror. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.
+// Hex Mirror. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 
 import InputCard from "./components/DisplayCard";
 import { BackLink } from "@lvucodes/ui";
@@ -14,12 +14,12 @@ export default function App() {
         <footer className="credits">
           <p className="credits-copyright">
             © 2026{" "}
-            <a href="https://github.com/lvuCodes" target="_blank" rel="noreferrer noopener">
-              lvuCodes
+            <a href="https://github.com/lelCodes" target="_blank" rel="noreferrer noopener">
+              lelCodes
             </a>
             . Free software under the{" "}
             <a
-              href="https://github.com/lvuCodes/hex-mirror/blob/main/LICENSE"
+              href="https://github.com/lelCodes/hex-mirror/blob/main/LICENSE"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -27,7 +27,7 @@ export default function App() {
             </a>
             .{" "}
             <a
-              href="https://github.com/lvuCodes/hex-mirror"
+              href="https://github.com/lelCodes/hex-mirror"
               target="_blank"
               rel="noreferrer noopener"
             >

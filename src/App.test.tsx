@@ -29,10 +29,10 @@ describe("footer copyright", () => {
 
     const license = screen.getByRole("link", { name: "GNU GPL v3" });
     expect(license.getAttribute("href")).toBe(
-      "https://github.com/lvuCodes/hex-mirror/blob/main/LICENSE",
+      "https://github.com/lelCodes/hex-mirror/blob/main/LICENSE",
     );
-    expect(screen.getByRole("link", { name: "lvuCodes" }).getAttribute("href")).toBe(
-      "https://github.com/lvuCodes",
+    expect(screen.getByRole("link", { name: "lelCodes" }).getAttribute("href")).toBe(
+      "https://github.com/lelCodes",
     );
   });
 
@@ -43,7 +43,7 @@ describe("footer copyright", () => {
       </Provider>,
     );
     const repo = screen.getByRole("link", { name: "hex-mirror on GitHub" });
-    expect(repo.getAttribute("href")).toBe("https://github.com/lvuCodes/hex-mirror");
+    expect(repo.getAttribute("href")).toBe("https://github.com/lelCodes/hex-mirror");
     expect(repo.getAttribute("target")).toBe("_blank");
     expect(repo.getAttribute("rel")).toBe("noreferrer noopener");
   });

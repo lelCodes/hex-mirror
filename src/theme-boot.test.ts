@@ -8,9 +8,9 @@ describe("applySiteTheme", () => {
     delete document.documentElement.dataset.theme;
   });
 
-  it("sets lvuCodes on the document root", () => {
+  it("sets lelCodes on the document root", () => {
     applySiteTheme();
-    expect(document.documentElement.dataset.theme).toBe("lvucodes");
+    expect(document.documentElement.dataset.theme).toBe("lelcodes");
   });
 
   it("overrides a theme the visitor picked elsewhere without touching storage", () => {
@@ -21,7 +21,7 @@ describe("applySiteTheme", () => {
     });
     document.documentElement.dataset.theme = "basic";
     applySiteTheme();
-    expect(document.documentElement.dataset.theme).toBe("lvucodes");
+    expect(document.documentElement.dataset.theme).toBe("lelcodes");
     expect(setItem).not.toHaveBeenCalled();
   });
 });
