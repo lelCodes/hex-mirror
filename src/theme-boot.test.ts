@@ -10,7 +10,7 @@ describe("applySiteTheme", () => {
 
   it("sets lelCodes on the document root", () => {
     applySiteTheme();
-    expect(document.documentElement.dataset.theme).toBe("lelcodes");
+    expect(document.documentElement.dataset.theme).toBe("lvucodes");
   });
 
   it("overrides a theme the visitor picked elsewhere without touching storage", () => {
@@ -21,7 +21,7 @@ describe("applySiteTheme", () => {
     });
     document.documentElement.dataset.theme = "basic";
     applySiteTheme();
-    expect(document.documentElement.dataset.theme).toBe("lelcodes");
+    expect(document.documentElement.dataset.theme).toBe("lvucodes");
     expect(setItem).not.toHaveBeenCalled();
   });
 });
