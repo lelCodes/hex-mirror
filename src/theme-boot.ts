@@ -1,6 +1,6 @@
-import type { ThemeId } from "@lvucodes/ui";
+import type { ThemeId } from "@lelcodes/ui";
 
-export const SITE_THEME: ThemeId = "lvucodes";
+export const SITE_THEME: ThemeId = "lelcodes";
 
 // Pin this site to the lelCodes theme regardless of the visitor's stored choice.
 // The storage key is shared across every site on this origin, so the theme is

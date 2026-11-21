@@ -1,7 +1,7 @@
 // Hex Mirror. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 
 import InputCard from "./components/DisplayCard";
-import { BackLink } from "@lvucodes/ui";
+import { BackLink } from "@lelcodes/ui";
 
 export default function App() {
   return (

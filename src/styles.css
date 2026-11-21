@@ -1,5 +1,5 @@
 /* Site chrome tokens. Defined here in the site root stylesheet so they override
-   @lvucodes/ui/theme.css's defaults (imported first in the entry). Values are the
+   @lelcodes/ui/theme.css's defaults (imported first in the entry). Values are the
    site's own hand-tuned greys, kept verbatim; only the names are new. */
 :root {
   color-scheme: light;

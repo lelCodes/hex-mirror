@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { THEME_STORAGE_KEY } from "@lvucodes/ui";
+import { THEME_STORAGE_KEY } from "@lelcodes/ui";
 import { applySiteTheme } from "./theme-boot";
 
 describe("applySiteTheme", () => {
@@ -10,7 +10,7 @@ describe("applySiteTheme", () => {
 
   it("sets lelCodes on the document root", () => {
     applySiteTheme();
-    expect(document.documentElement.dataset.theme).toBe("lvucodes");
+    expect(document.documentElement.dataset.theme).toBe("lelcodes");
   });
 
   it("overrides a theme the visitor picked elsewhere without touching storage", () => {
@@ -21,7 +21,7 @@ describe("applySiteTheme", () => {
     });
     document.documentElement.dataset.theme = "basic";
     applySiteTheme();
-    expect(document.documentElement.dataset.theme).toBe("lvucodes");
+    expect(document.documentElement.dataset.theme).toBe("lelcodes");
     expect(setItem).not.toHaveBeenCalled();
   });
 });

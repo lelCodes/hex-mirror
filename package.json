@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Find the contrast mirror of a hex color",
   "type": "module",
-  "prettier": "@lvucodes/ui/prettier",
+  "prettier": "@lelcodes/ui/prettier",
   "dependencies": {
-    "@lvucodes/ui": "^0.1.2",
+    "@lelcodes/ui": "^0.2.0",
     "@reduxjs/toolkit": "^2.9.0",
     "classnames": "^2.5.1",
     "react": "^19.2.0",
